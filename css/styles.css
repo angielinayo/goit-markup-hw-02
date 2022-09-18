@@ -13,6 +13,7 @@
 .page {
 background-color: var(--backgr-main-color); 
 color: var(--gen-text-color);
+font-family: Roboto, sans-serif;
 }
 
 .list {
