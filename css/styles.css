@@ -48,8 +48,7 @@ color: var(--gen-text-color);
 
 /*buttons*/
 .button {
-
-    
+   
 } 
 
 .button-main {
@@ -65,7 +64,8 @@ color: var(--gen-text-color);
 }
 
 .button-secondary:hover,
-.button-secondary:focus {
+.button-secondary:focus,
+.button-secondary:active {
     color: var(--white-text-color);
     background-color: var(--accent-text-color);
     cursor: pointer;
@@ -76,8 +76,7 @@ color: var(--gen-text-color);
     color: var(--white-text-color);
 }
 
-
-/* section */
+/* team section */
 .section-title {
     color: var(--title-text-color);
 }
@@ -89,7 +88,6 @@ color: var(--gen-text-color);
     color: var(--gen-text-color);
 }
 
-
 /*values section*/
 
 .values-heading {
@@ -100,19 +98,27 @@ color: var(--gen-text-color);
     color: var(--gen-text-color);
 }
 
+.results-title {
+    color: var(--title-text-color);
+}
+
+.results-info {
+    color: var(--gen-text-color);
+}
 /*footer*/
+.address {
+    color: var(--white-text-color);
+}
 
 .footer-link {
     color: #FFFFFF99
 }
+
 .footer-link:hover,
 .footer-link:focus {
     color: #2196F399;
+}
 
-}
-.address {
-    color: var(--white-text-color);
-}
 /* colors: 
 logo: #000000 accent: #2196F3 backgr: #FFFFFF 
 white: #FFFFFF
