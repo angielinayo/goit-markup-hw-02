@@ -33,6 +33,10 @@ color: var(--gen-text-color);
     color: var(--accent-text-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-text-color);
+}
+
 /*nav*/
 .contact-nav .nav-link {
     color: var(--gen-text-color);
@@ -43,7 +47,6 @@ color: var(--gen-text-color);
 }
 
 /*buttons*/
-
 /*.button {
 
 } */
