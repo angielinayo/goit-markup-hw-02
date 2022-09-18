@@ -1,0 +1,64 @@
+:root {
+    --gen-text-color: #757575;
+    --accent-text-color: #2196F3; 
+    --title-text-color: #212121;
+    --white-text-color: #FFFFFF;
+
+    --backgr-dark-color: #2F303A;
+    --backgr-main-color: #F5F5F5;
+    --backgr-grey-color: #F5F4FA;
+
+}
+
+.page {
+background-color: var(--backgr-main-color); 
+color: var(--gen-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+
+.logo {
+    color: var(--accent-text-color);
+}
+
+/* site nav*/
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-text-color);
+}
+
+/*nav*/
+.contact-nav .nav-link {
+    color: var(--gen-text-color);
+}
+.contact-nav .nav-link:hover,
+.contact-nav .nav-link:focus {
+    color: var(--accent-text-color)
+}
+
+
+/* hero */
+.hero-title {
+    color: var(--white-text-color);
+}
+
+
+/* section */
+.section-title {
+    color: var(--title-text-color);
+}
+
+
+/* colors: 
+logo: #000000 accent: #2196F3 backgr: #FFFFFF 
+white: #FFFFFF
+footer white 60% 
+
+bakcgr 2: #F5F5F5
+backgr 3: #F5F4FA */
