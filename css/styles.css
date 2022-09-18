@@ -42,6 +42,27 @@ color: var(--gen-text-color);
     color: var(--accent-text-color)
 }
 
+/*buttons*/
+
+/*.button {
+
+} */
+
+.button-main {
+    color: var(--white-text-color);
+    background-color: var(--accent-text-color);
+}
+
+.button-secondary {
+    color: var(--title-text-color);
+    background-color: var(--backgr-grey-color);
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-text-color);
+}
 
 /* hero */
 .hero-title {
